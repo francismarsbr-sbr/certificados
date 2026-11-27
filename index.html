@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificados | IA para principiantes Productividad | acacode</title>
+    <meta
+      name="description"
+      content="Certificados del curso IA para principiantes Productividad de acacode. Consulta tu nombre y descarga tu certificado."
+    />
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="brand" href="index.html" aria-label="acacode">
+          <img src="img/logo-acacode.png" alt="acacode" />
+        </a>
+        <p class="header__course" data-curso>IA para principiantes Productividad</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">acacode</p>
+          <h1>Certificados</h1>
+          <p>
+            Curso <strong data-curso>IA para principiantes Productividad</strong>.
+          </p>
+        </div>
+      </section>
+
+      <section class="planilla" aria-labelledby="titulo-planilla">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2 class="section-title" id="titulo-planilla">
+                Estudiantes del curso <span data-curso>IA para principiantes Productividad</span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="herramientas" id="herramientas">
+              <label class="busqueda">
+                <span class="sr-only">Buscar estudiante</span>
+                <input
+                  id="busqueda"
+                  type="search"
+                  placeholder="Buscar estudiante"
+                  autocomplete="off"
+                />
+              </label>
+              <p class="conteo" id="conteo" aria-live="polite"></p>
+            </div>
+
+            <div class="vacio" id="vacio" hidden>
+              <p>Todavía no hay estudiantes en esta planilla.</p>
+            </div>
+
+            <p class="sin-resultado" id="sinResultado" hidden>
+              Ningún estudiante coincide con esa búsqueda.
+            </p>
+
+            <div class="tabla-wrap" id="tablaWrap">
+              <table class="tabla">
+                <thead>
+                  <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Código</th>
+                    <th scope="col"><span class="sr-only">Certificado</span></th>
+                  </tr>
+                </thead>
+                <tbody id="cuerpo"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <img class="footer__logo" src="img/logo-acacode-blanco.png" alt="acacode" />
+          <p>Aprende, Crea y Comparte — habilidades tech para tu futuro.</p>
+          <p class="footer__contact">
+            Av. José Joaquín Veroes, esquina calle 12, San Felipe, Yaracuy<br />
+            <a href="mailto:academyacacode@gmail.com">academyacacode@gmail.com</a>
+          </p>
+        </div>
+        <div>
+          <h3>Este certificado</h3>
+          <ul>
+            <li data-curso>IA para principiantes Productividad</li>
+            <li>Finalización del curso</li>
+            <li>Academia acacode</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer-bar">
+      <div class="container footer-bar__inner">
+        <p>Copyright © 2026 Acacode. Todos los derechos reservados</p>
+      </div>
+    </div>
+
+    <noscript>
+      <p class="container aviso-js">Activa JavaScript para ver la planilla y descargar los certificados.</p>
+    </noscript>
+
+    <script src="js/estudiantes.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
